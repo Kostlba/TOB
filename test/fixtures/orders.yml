@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fullname: MyString
+  adress: MyString
+  status_id: 1
+  why: MyString
+
+two:
+  fullname: MyString
+  adress: MyString
+  status_id: 1
+  why: MyString
