@@ -18,7 +18,7 @@ form do |f|
       f.input :address
       f.input :why
       f.input :fullname
-  #    f.input :status_id, :as => :select, :collection => Status.all.map{|u| ["#{u.name}", u.id]}
+      f.input :status_id, :as => :select, :collection => Status.all.map{|u| ["#{u.name}", u.id]}
     end
    f.actions
 end
