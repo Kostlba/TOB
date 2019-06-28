@@ -69,3 +69,31 @@ background-blend-mode: multiply, normal;
   margin: auto;
   padding-bottom: 20px;
 }
+.content{
+  display: block;
+  max-width:650px;
+  margin: 30px auto;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius:20px;
+  padding: 20px;
+}
+.text{
+  color:white;
+}
+.yahho{
+  font-size: 32px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.col{
+  margin: 10px;
+}
+.orderss{
+    background: linear-gradient(0deg, #282828, #282828), url("https://bestcube.space/wp-content/uploads/Playerunknowns-Battlegrounds.jpg");
+background-blend-mode: multiply, normal;
+  background-position: center;
+  text-align: center;
+  padding: 20%;
+  color: white;
+}

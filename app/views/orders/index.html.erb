@@ -1,15 +1,16 @@
 <%= form_tag find_order_path, method: :get do %>
-<div class="form-row">
-  <div class="col">
-    <%= text_field_tag :id , "" ,class:"form-control", placeholder:"ID"%>
-  </div>
-  <div class="col">
-    <%= text_field_tag :fullname, "" ,class:"form-control", placeholder:"ПІБ" %>
-  </div>
-  <div class="col">
-    <%= submit_tag 'Переглянути' ,class:"btn btn-success" %>
-  </div>
-</div>
-
+<div class="info">
+	<div class="yahho">
+		<div class="col">
+		    <%= text_field_tag :id , "" ,class:"form-control", placeholder:"ID"%>
+		</div>
+		<div class="col">
+			<%= text_field_tag :fullname, "" ,class:"form-control", placeholder:"ПІБ" %>
+		</div>
+		<div class="col">
+			<%= submit_tag 'Переглянути' ,class:"btn btn-success" %>
+		</div>
+	</div>
 <% end %>
-<%=@message%>
+<div class="text"><%=@message%></div>
+</div>
