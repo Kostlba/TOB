@@ -2,7 +2,7 @@
 
 class OrdersController < ApplicationController
   def index
-    @message = 'Input ID and Fullname'
+    @message = 'Напишите свой ID и ПІБ в соответствующие поля'
   end
 
   def find
@@ -12,9 +12,9 @@ class OrdersController < ApplicationController
 
       redirect_to order_path(@order.id, @fullname)
     else
-      @message = 'Ви не ввели fullname ' if @fullname == '' || @fullname.nil?
+      @message = 'Ви не ввели ПІБ ' if @fullname == '' || @fullname.nil?
       @message = 'Not found' unless @order && params[:id] != ''
-      @message = 'Fullname не співпадає ' if @order && @order.fullname != @fullname && @fullname != ''
+      @message = 'ПІБ не співпадає ' if @order && @order.fullname != @fullname && @fullname != ''
       render 'orders/index'
     end
   end

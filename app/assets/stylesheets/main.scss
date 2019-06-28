@@ -1,0 +1,99 @@
+*{
+  outline:none;
+  a{
+  text-decoration: none;
+  }
+}
+
+body{
+  margin: 0px;
+  a{
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.info{
+  background: linear-gradient(0deg, #282828, #282828), url("https://bestcube.space/wp-content/uploads/Playerunknowns-Battlegrounds.jpg");
+background-blend-mode: multiply, normal;
+  background-position: center;
+  text-align: center;
+  padding: 20%;
+.title{
+  font-size: 32px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.subtitle{
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.btn{
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  background-color: #BF2D2D;
+  border-radius: 20px;
+  border: 1;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: #000126;
+  color: #fff;
+}
+}
+
+.input{
+  max-width: 450px;
+  min-width: 150px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.search{
+  display: grid;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.content{
+  display: block;
+  max-width:650px;
+  margin: 30px auto;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius:20px;
+  padding: 20px;
+}
+.text{
+  color:white;
+}
+.yahho{
+  font-size: 32px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.col{
+  margin: 10px;
+}
+.orderss{
+    background: linear-gradient(0deg, #282828, #282828), url("https://bestcube.space/wp-content/uploads/Playerunknowns-Battlegrounds.jpg");
+background-blend-mode: multiply, normal;
+  background-position: center;
+  text-align: center;
+  padding: 20%;
+  color: white;
+}
